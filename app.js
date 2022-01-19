@@ -2,7 +2,7 @@ const express = require('express');
 const path = require ('path'); 
 const cors = require('cors');
 const bodyParser=require("body-parser");
-var port=process.env.PORT || 5000;
+var port=5000;
 
 const nav= [
     {
